@@ -1,0 +1,17 @@
+{
+  "name": "lunio",
+  "version": "0.0.1",
+  "description": "A bot for LuneXum",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Qyther",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "discord.js": "^11.3.0",
+    "opusscript": "0.0.6",
+    "return-deep-diff": "^0.2.9"
+  }
+}
