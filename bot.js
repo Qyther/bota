@@ -577,17 +577,10 @@ client.on("message", (msg, member) => {
 
 client.on("guildMemberRemove", (member, guild) => {
   if (member.user.username === client.user.username) return;
-  dates = [];
-  date = new Date();
-  dates.push(days[date.getDay()], months[date.getMonth()], date.getDate(), date.getYear()+1900, date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds());
-  if (!guild.channels.find("name", "welcome")) return;
-  guild.channels.find("name","welcome").send("R.I.P " + member.user.username + " : " + dates.join(" "));
   console.log(member.user.username + " has left the server");
 });
 client.on("guildMemberAdd", (member, guild) => {
   if (member.user.username === client.user.username) return;
-  if (!guild.channels.find("name", "welcome")) return;
-  guild.channels.find("name","welcome").send("Welcome to LuneXum, " + member.user.username + "! To get the command list just say what are the commands !");
   console.log(member.user.username + " has joined the server");
 });
 
