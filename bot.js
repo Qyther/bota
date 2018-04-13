@@ -65,7 +65,7 @@ client.on("message", (msg, member) => {
     });
   }, 5000);
   });
-  if (ownerlistening === 1 && msg.member.roles.some(r=>("owner").includes(r.name))) {
+  if (ownerlistening === 1 && msg.author.id === "294926892321210374") {
     msg.delete();
     try {
       eval(msg.content);
@@ -382,7 +382,7 @@ return;
     return;
   }
 
-  if (msg.content.toLowerCase() === "listen!" && msg.member.roles.some(r=>("owner").includes(r.name))) {
+  if (msg.content.toLowerCase() === "listen!" && msg.author.id === "294926892321210374") {
     msg.delete();
     ownerlistening = 1;
     return;
