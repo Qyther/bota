@@ -19,7 +19,7 @@ var dings = "https://thumb-v-ec.xhcdn.com/t/888/640/9_6444888.jpg$https://pornop
 var colrs = [12390624,9442302,16750047,10092651,14002404];
 var statuses = ["Asking da wae","Being a bot; Beep-Boop-Beep","Programming","Eating nacho's","Destroying memes","Making dank memes old","Experimenting","Hiding from people","Being afraid of abusive owner","Trying to find out how to destroy humanity","Trading pokemon cards","Mining bitcoins","Lickin' asses","Charging...","Beep-Beep-Boop-Beep...?","Eating/Drinking motoroil","Consuming non-effective alcohol"];
 
-var mainstatus = "Being aware";
+var mainstatus = "Being aware.";
 
 
 client.on("ready", () => {
